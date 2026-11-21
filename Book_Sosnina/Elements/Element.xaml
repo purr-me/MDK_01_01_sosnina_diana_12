@@ -11,8 +11,8 @@
             <ColumnDefinition Width="1*"/>
         </Grid.ColumnDefinitions>
 
-        <TextBlock Name="tbName" Text="" Margin="10,10,10,0" VerticalAlignment="Top" Foreground="White" FontWeight="Bold" Grid.ColumnSpan="2"/>
-        <TextBlock Name="tbGenre" Text="" Margin="10,35,10,10" VerticalAlignment="Top" Foreground="White" FontWeight="Bold" Grid.ColumnSpan="1"/>
-        <TextBlock Name="tbAuthors" Text="" Margin="10,35,10,10" VerticalAlignment="Top" Foreground="White" FontWeight="Bold" Grid.ColumnSpan="1"/>
+        <TextBlock Name="tbName" Text="" Margin="10,10,10,0" VerticalAlignment="Top" Foreground="White" FontWeight="Bold" Grid.ColumnSpan="3"/>
+        <TextBlock Name="tbGenre" Text="" Margin="10,35,10,10" VerticalAlignment="Top" Foreground="White" FontWeight="Bold" />
+        <TextBlock Name="tbAuthors" Text="" Margin="10,35,10,10" VerticalAlignment="Top" Foreground="White" FontWeight="Bold" Grid.Column="1"/>
     </Grid>
 </UserControl>
