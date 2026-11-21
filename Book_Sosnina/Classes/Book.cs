@@ -16,11 +16,11 @@ namespace Book_Sosnina.Classes
 
         public Book(int Id, string Name, List<Ganre> Ganres, List<Author> Authors, int Year)
         {
-            Id = Id;
-            Name = Name;
-            Ganres = Ganres;
-            Authors = Authors;
-            Year = Year;
+            this.Id = Id;
+            this.Name = Name;
+            this.Ganres = Ganres;
+            this.Authors = Authors;
+            this.Year = Year;
         }
 
         public static List<Book> AllBook()
